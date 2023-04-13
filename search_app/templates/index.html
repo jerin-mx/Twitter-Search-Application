@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Twitter DB</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<h1>Search the Twitter DB</h1>
+	<div>
+		Search by type:<br>
+		<input type="radio" name="search_type" value="string" checked> string<br>
+		<input type="radio" name="search_type" value="hashtag"> Hashtag<br>
+		<input type="radio" name="search_type" value="user"> User<br>
+	</div>
+	<br>
+
+	<div>
+		Filter by date:<br>
+		Start Date
+		<input type="datetime-local" id="start_date" name="start_date">
+		<br>
+		End Date
+		<input type="datetime-local" id="end_date" name="end_date">
+	</div>
+
+	<br>
+	Enter word
+	<input type="text" id="search_word" name="search_word">
+	<br><br>
+	<button id="search_btn">Search DB</button>
+	<br><br>
+	<div id="log"></div>
+	<br>
+
+	<script>
+		var log = document.getElementById("log");
+
+		document.getElementById("search_btn").onclick = btnSearch;
+
+		const searchTypes = document.querySelectorAll("input[name='search_type']");
+		var searchType, searchWord, startDate, endDate;
+
+		function btnSearch(){
+			searchTypes.forEach( radio => {
+				if(radio.checked) searchType = radio.value;
+			});
+
+			searchWord = document.getElementById("search_word").value;
+			startDate = document.getElementById("start_date").value;
+			endDate = document.getElementById("end_date").value;
+
+			log.innerHTML = "type: " + searchType + "<br>word: " + searchWord + "<br>from: " + startDate + "<br>to: " + endDate;
+		
+		}
+
+
+
+	</script>
+</body>
+</html>
