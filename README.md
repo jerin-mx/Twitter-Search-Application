@@ -6,7 +6,7 @@ This is a Python application that allows users to search for tweets on the Twitt
 2. Run the pre-processing file
 3. Run the search app with correct authentication to the databases.
 
-Contributing
+Contribution:
 
 If you would like to contribute to this project, please fork the repository and submit a pull request with your changes. Be sure to follow the coding style and include tests for any new features or bug fixes.
 
