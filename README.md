@@ -1,4 +1,4 @@
-To create a search app for twitter databse in python 
+To create a search app for twitter database in python 
 
 1. Import necessary libraries and set up MySQL and MongoDB
 2. Run the pre-processing file
