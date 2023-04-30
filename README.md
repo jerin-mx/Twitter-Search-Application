@@ -13,7 +13,7 @@ The Twitter Search application aims to design and develop a search engine that r
 ![image](https://user-images.githubusercontent.com/130589478/235381536-632d08a0-793a-4c8a-b1ec-d6d527fdb351.png)
 
 
-## Contributers:
+## Contributors:
 
 Ashwathi Ajayan Nambiar (https://github.com/ashwathi28)
 
