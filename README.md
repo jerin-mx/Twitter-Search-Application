@@ -1,4 +1,4 @@
-Twitter Search Application
+# Twitter Search Application
 
 This is a Python application that allows users to search for tweets on the Twitter database based on a specific query. The application uses the database to retrieve the tweets and provides a user-friendly interface for searching and filtering the results.
 
