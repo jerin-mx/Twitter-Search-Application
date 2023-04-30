@@ -8,6 +8,11 @@ The Twitter Search application aims to design and develop a search engine that r
   2. Run the twitter dataset processing file
   3. Run the search app with correct authentication to the datastores.
 
+## Application Architecture
+
+![image](https://user-images.githubusercontent.com/130589478/235381536-632d08a0-793a-4c8a-b1ec-d6d527fdb351.png)
+
+
 ## Contribution:
 
 If you would like to contribute to this project, please fork the repository and submit a pull request with your changes. Be sure to follow the coding style and include tests for any new features or bug fixes.
