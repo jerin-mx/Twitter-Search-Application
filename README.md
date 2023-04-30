@@ -3,7 +3,7 @@ Twitter Search App
 This is a Python application that allows users to search for tweets on the Twitter database based on a specific query. The application uses the database to retrieve the tweets and provides a user-friendly interface for searching and filtering the results.
 
 1. Import necessary libraries and set up MySQL and MongoDB
-2. Run the pre-processing file
+2. Run the twitter dataset processing file
 3. Run the search app with correct authentication to the databases.
 
 Contribution:
