@@ -16,8 +16,11 @@ The Twitter Search application aims to design and develop a search engine that r
 ## Contributers:
 
 Ashwathi Ajayan Nambiar (https://github.com/ashwathi28)
+
 Jerlin Merlin Xavier (https://github.com/jerin-mx)
+
 Kshitij Jain (https://github.com/kshitij107)
+
 Mohammed Mafaz Nadherssa (https://github.com/mafazazhaar)
 
 ## Contribution:
